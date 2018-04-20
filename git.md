@@ -3,6 +3,8 @@
 版本控制系統，遠端空間是使用 GitHub，UI 操作版本可以參考 [Source Tree](https://www.sourcetreeapp.com/)。以下紀錄一些比較常用到的 command。<br>
 Record some common git commands here. (Use GitHub)
 
+<br>
+
 ## Create repository
 
 可以直接在網頁上操作，或是使用下方 command。<br>
@@ -25,12 +27,17 @@ git push -u origin master
 
     增加遠端的 repository
 
+<br>
+
 ## Common git flow
 
 1. 增加/修改檔案或程式 (Add/Modified any file or code)
 2. 修改檔案或程式進行 commit (Commit the modified)
 3. Push 到遠端 repository (Push to remote repository)
+
 **＊記得*每一個*有修改到的檔案在 commit 之前，都需要先做 add＊**
+
+<br>
 
 ## Add file in
 
@@ -46,6 +53,8 @@ Example:
 git add README.md
 ```
 
+<br>
+
 ## Commit Status
 
 ```
@@ -60,6 +69,8 @@ git status -s
 * 白字 : 有進行修改的檔案
 * 紅字 : 檔案狀態標記，且 **尚未加入** 此次的 commit 清單內。(M = Modify, ?? = Add)
 * 綠字 : 檔案狀態標記，且 **已被加入** 此次的 commit 清單內。(M = Modify, A = Add)
+
+<br>
 
 ## Commit
 
@@ -90,6 +101,8 @@ Example:
 ```
 git commit -m "Add new Logo, modify login flow, ..."
 ```
+
+<br>
 
 ## Push
 
