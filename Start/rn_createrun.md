@@ -1,7 +1,6 @@
 # 建立＆執行專案 Create & Run
 
 
-<br>
 ## Create React-Native Project
 
 ```
@@ -53,7 +52,6 @@ cd /User/MyLoad/Document/Project
 react-native init FirstRNProject
 ```
 
-<br>
 ## Run React-Native Project (iOS)
 
 建立專案完成之後，會跳出執行專案的 command 說明可供參考。
