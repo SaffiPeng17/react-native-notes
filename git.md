@@ -1,13 +1,11 @@
-# git
+# Git
 
-版本控制的工具，這邊主要是使用 GitHub。以下紀錄一些比較常用到的 command。
-
+版本控制系統，遠端空間是使用 GitHub，UI 操作版本可以參考 [Source Tree](https://www.sourcetreeapp.com/)。以下紀錄一些比較常用到的 command。<br>
 Record some common git commands here. (Use GitHub)
 
 ## Create repository
 
-可以直接在網頁上操作，或是使用下方 command。
-
+可以直接在網頁上操作，或是使用下方 command。<br>
 You could create a new repository on the GitHub website. If you would like to use command, you could reference the command below.
 
 ```
@@ -33,7 +31,7 @@ git push -u origin master
 2. 修改檔案或程式進行 commit (Commit the modified)
 3. Push 到遠端 repository (Push to remote repository)
 
-**＊記得每個有修改到的檔案在 commit 之前，都需要先做 add＊**
+**＊記得*每一個*有修改到的檔案在 commit 之前，都需要先做 add＊**
 
 ## Add file in
 
@@ -69,6 +67,5 @@ git commit -m "Add new Logo, modify login flow, ..."
 git push -u origin master
 ```
 
-將已經 commit 的檔案/程式丟到遠端 repository。
-
+將已經 commit 的檔案/程式丟到遠端 repository。<br>
 Push the committed file/program to remote repository.

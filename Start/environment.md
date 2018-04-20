@@ -1,5 +1,4 @@
 # 環境建置 Environment
---
 
 React-Native 屬於 NodeJS 的一個套件，所以在建置開發環境時，要先安裝 NodeJS。<br>
 以下安裝套件都在 Terminal 上下 command 的方式進行。
@@ -54,5 +53,3 @@ Add React-Native kit into NodeJS.<br>
 
 * [［REACT 隨筆］REACT NATIVE 環境建置 – 適用於 IOS 開發](https://4xsc.com/react-native-introduction-ios/)
 * [Introducing Hot Reloading](http://facebook.github.io/react-native/blog/2016/03/24/introducing-hot-reloading.html)
-
-
