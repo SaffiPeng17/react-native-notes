@@ -1,15 +1,20 @@
 # 建立＆執行專案 Create & Run
 
+
+<br>
 ## Create React-Native Project
 
 ```
 react-native init (project name)
-
-//Sample
-react-native init FirstRNProject
 ```
 
 * (project name): 自定義專案名稱
+
+Example:
+
+```
+react-native init FirstRNProject
+```
 
 執行建立專案 command 之後，會自動建立 iOS ＆ Android 各自的專案，並且補上執行專案需要用到的檔案，其中部分的 JS Files 還包含了簡單的 iOS ＆ Android 共用 App UI，所以需要等待一些建立時間。
 
@@ -25,8 +30,11 @@ This will walk you through creating a new React Native project in /(file path)/(
 
 ```
 react-native init /(specify file path)/(project name)
+```
 
-//Sample
+Example:
+
+```
 react-native init /User/MyLoad/Document/Project/FirstRNProject
 ```
 
@@ -36,12 +44,16 @@ react-native init /User/MyLoad/Document/Project/FirstRNProject
 //將當前路徑切換到 (specify file path)
 cd (specify file path)
 react-native init (project name)
+```
 
-//Sample
+Example:
+
+```
 cd /User/MyLoad/Document/Project
 react-native init FirstRNProject
 ```
 
+<br>
 ## Run React-Native Project (iOS)
 
 建立專案完成之後，會跳出執行專案的 command 說明可供參考。
@@ -56,8 +68,11 @@ react-native init FirstRNProject
 //將當前路徑切換到 (project name)
 cd (project name)
 react-native run-ios
+```
 
-//Sample
+Example:
+
+```
 cd FirstRNProject
 react-native run-ios
 ```
@@ -77,7 +92,7 @@ react-native run-ios
 
     ![Setup Cmd Line](/images/setup_xcode_cmdline.png)
 
-**[Error Running React Native App From Terminal (iOS)](https://stackoverflow.com/questions/39778607/error-running-react-native-app-from-terminal-ios)**
+ref.: [Error Running React Native App From Terminal (iOS)](https://stackoverflow.com/questions/39778607/error-running-react-native-app-from-terminal-ios)
 
 **＊方法 2.**
 
@@ -90,7 +105,7 @@ react-native run-ios
 2. 在專案設定內的 Signing 加入你的 Apple ID
 3. 使用傳輸線連接你的 Mac 電腦與手機
 
-**[［REACT 隨筆］專案 APP IPHONE 實機測試](https://4xsc.com/react-app-on-iphone/)**
+ref.: [［REACT 隨筆］專案 APP IPHONE 實機測試](https://4xsc.com/react-app-on-iphone/)
 
 <br><br>
 ### References
