@@ -56,7 +56,7 @@ cd FirstRNProject
 react-native run-ios
 ```
 <br>
-在執行 command 之後，若未正常執行專案，而是跳出如下方圖片的錯誤，
+在執行 command 之後，若未正常執行專案，而是跳出如下方圖片的錯誤，<br>
 
 ![Run iOS Error](/images/run_ios_error.png)
 
@@ -72,12 +72,10 @@ react-native run-ios
 
 ref.: [Error Running React Native App From Terminal (iOS)](https://stackoverflow.com/questions/39778607/error-running-react-native-app-from-terminal-ios)
 
-**＊方法 2.**
-
-直接在 Xcode 開啟 iOS 專案，並任擇一模擬器執行專案。
+**＊方法 2. 用 Xcode 開啟 iOS 專案，並任擇一模擬器執行專案。**
 
 <br>
-以上為使用模擬器執行專案的方法，若是想在真實手機上執行專案，就只能用 Xcode。
+以上為使用模擬器執行專案的方法，若是想在真實手機上執行專案，就只能用 Xcode。<br>
 
 1. 開啟 **Xcode**
 2. 在專案設定內的 **Signing** 加入你的 **Apple ID**
