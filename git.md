@@ -155,7 +155,7 @@ git status -s
 
 * **綠字**
 
-    **已** 被stage的檔案狀態。(M = Modify, A = Add)
+    **已** 被stage的檔案狀態。(M = Modify, A = Add, R = Renamed)
 
 * 若是檔案在stage後又被修改，這時會同時顯示紅/綠兩種檔案狀態。
 
