@@ -143,7 +143,7 @@ git status -s
 
 這個command可以查詢檔案狀態，執行command之後會顯示所有修改過的檔案，並且標記檔案修改狀態，如哪些是add、哪些是modified、...。
 
-![File status](/images/git_status.png)
+![File status](/images/git/git_status.png)
 
 * **白字**
 
@@ -161,7 +161,7 @@ git status -s
 
 ## Checkout
 
-主要目的是將現在的專案切換到指定版本，要特別注意的是 **執行這個command後，任何沒有進行commit的檔案修改都將被捨棄**。<br>
+主要目的是將現在的專案切換到指定版本，要特別注意的是 **執行這個command後，任何沒有進行commit的檔案修改都將被捨棄**。
 當然執行這個command時，git system若偵測到有任何未commit的檔案修改，會跳出警示訊息，這時再進行確認也可以。
 
 ```
@@ -186,8 +186,9 @@ git checkout -- README.md
 git stash
 ```
 
-這個command是將目前所有的檔案修改丟到stash。<br>
-雖然git system會自動給予stash一個node ID，但當你有好幾個被打斷的工作(好幾個stash)時，你可能需要加入一些資訊來辨別不同的stash，這時可以用，
+這個command是將目前所有的檔案修改丟到stash。
+
+雖然git system會自動給予stash一個node ID，但當你有好幾個被打斷的工作(好幾個stash)時，你可能需要加入一些資訊來辨別不同的stash，這時可以使用，
 
 ```
 git stash save "(stash message)"
@@ -197,7 +198,7 @@ git stash save "(stash message)"
 
     自己辨識用的stash訊息
 
-當你想把指定的stash搬回專案時，就要使用，
+當你想把指定的stash搬回專案時就要使用，
 
 ```
 git stash apply
@@ -219,7 +220,7 @@ git stash drop (node id)
 
     git system為stash建立的node ID
 
-若是想查詢stash的nodeID，可以使用，
+若是想查詢stash的nodeID可以使用，
 
 ```
 git stash list

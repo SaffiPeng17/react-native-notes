@@ -8,7 +8,7 @@
 react-native init (project name)
 ```
 
-* (project name): 自定義專案名稱
+* **(project name)** : 自定義專案名稱
 
 Example:
 
@@ -17,14 +17,16 @@ react-native init FirstRNProject
 ```
 
 執行 建立專案command 之後，會自動建立iOS＆Android各自的專案，並且補上執行專案需要用到的檔案，其中部分的JS Files還包含了簡單的iOS＆Android共用App UI，所以需要等待一些建立時間。
-<br>
-最後，在建立完成之後會出現建立的專案路徑。
+
+最後，在建立完成之後會出現建立的專案路徑，
 
 ```
-This will walk you through creating a new React Native project in /(file path)/(project name)
+This will walk you through creating a new React Native project in /(file path)/(project name) ...
 ```
 
-(file path) 會是你執行 建立專案command 當下所在的路徑。若是想要指定專案路徑，有兩個方法，
+* **(file path)** : 執行 建立專案command 當下所在的路徑
+
+而若是想要指定要建立的專案路徑，有兩個方法：
 
 1. 在 建立專案command 上指定專案路徑
 
@@ -43,7 +45,7 @@ This will walk you through creating a new React Native project in /(file path)/(
 
 建立專案完成之後，會跳出 執行專案command 的說明可供參考。<br>
 
-![Run iOSAndroid](/images/run_iosandroid_pj.png)
+![Run iOSAndroid](/images/environment/run_iosandroid_pj.png)
 
 <br>
 **＊方法 1. 使用command來執行專案**
@@ -52,10 +54,10 @@ This will walk you through creating a new React Native project in /(file path)/(
 cd FirstRNProject
 react-native run-ios
 ```
-<br>
-在執行command之後，若未正常執行專案，而是跳出如下方圖片的錯誤，<br>
 
-![Run iOS Error](/images/run_ios_error.png)
+執行command後，若未正常開始運行專案，而是跳出如下方圖片的錯誤，<br>
+
+![Run iOS Error](/images/environment/run_ios_error.png)
 
 就依照以下步驟來解決，
 
@@ -65,7 +67,7 @@ react-native run-ios
 4. 設定 **Command Line Tools** <br>
     選項基本上只有一個，版本就是你現在的 Xcode 版本，不必非要選擇哪種版本。<br>
 
-    ![Setup Cmd Line](/images/setup_xcode_cmdline.png)
+    ![Setup Cmd Line](/images/environment/setup_xcode_cmdline.png)
 
 ref.: [Error Running React Native App From Terminal (iOS)](https://stackoverflow.com/questions/39778607/error-running-react-native-app-from-terminal-ios)
 
