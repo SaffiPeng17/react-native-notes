@@ -11,6 +11,7 @@
 
 * [react-snippets](https://atom.io/packages/react-snippets)
 * [language-javascript-jsx](https://atom.io/packages/language-javascript-jsx)
+* [Highlight Selected](https://atom.io/packages/highlight-selected)
 
 **安裝步驟**
 
