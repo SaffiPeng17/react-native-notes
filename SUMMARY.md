@@ -9,6 +9,7 @@
 
 ## Develop
 * [第三方套件 Third Party](Develop/third_party.md)
+* [變數 Variables](Develop/variable.md)
 
 ## Others
 * [開發工具 Develop Tools](Others/devtools.md)

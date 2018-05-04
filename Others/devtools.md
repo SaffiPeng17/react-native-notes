@@ -7,7 +7,7 @@
 
 ## Atom
 
-**React 補字套件** : 推薦
+**附加功能套件** : 推薦
 
 * [react-snippets](https://atom.io/packages/react-snippets)
 * [language-javascript-jsx](https://atom.io/packages/language-javascript-jsx)
