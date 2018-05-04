@@ -145,19 +145,49 @@ git status -s
 
 ![File status](/images/git/git_status.png)
 
-* **白字**
-
-    有被修改過的檔案
-
-* **紅字**
-
-    **未** 被stage的檔案狀態。(M = Modify, ?? = Add)
-
-* **綠字**
-
-    **已** 被stage的檔案狀態。(M = Modify, A = Add, R = Renamed)
+* **白字** : 有被修改過的檔案
+* **紅字** : **未** 被stage的檔案狀態。(M = Modify, ?? = Add)
+* **綠字** : **已** 被stage的檔案狀態。(M = Modify, A = Add, R = Renamed)
 
 * 若是檔案在stage後又被修改，這時會同時顯示紅/綠兩種檔案狀態。
+
+## Diff
+
+當你修改過任何的檔案內容之後、加入stage之前，可能需要確認目前檔案修改了哪些部分，這時就可以使用下方的command來查詢檔案修改狀態，
+
+```
+git diff -- (file name)
+```
+
+* **(file name)**
+
+    要查看修改狀態的檔案，包含檔名＋副檔名
+
+Example:
+
+```
+git diff -- git.md
+```
+
+![File diff](/images/git/git_diff.png)
+
+* **白字** : 未修改的部分
+* **紅字** : 刪除的部分
+* **綠字** : 新增的部分
+
+## Log
+
+想查看整個專案所有的修改歷程可以使用，
+
+```
+git log
+```
+
+Example:
+
+![File diff](/images/git/git_log.png)
+
+歷程紀錄最上方的是最新的commit版本，越下方是越舊的紀錄。
 
 ## Checkout
 
