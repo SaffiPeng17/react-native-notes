@@ -1,6 +1,6 @@
 # 變數 Variables
 
-命名變數有幾個原則，
+命名變數有幾個原則。
 
 ## const, let, var
 
@@ -24,8 +24,10 @@ export default class App extends Component {
 
 皆是用來命名可變變數，用`var`命名的變數可以在整個function內使用，但是用`let`命名的變數只有在當下的block內才能使用。
 
+ref.: [ES6 的 var 和 let](http://www.jstips.co/zh_tw/javascript/keyword-var-vs-let/)
+
 ```
-onTryLetVar() {
+onTestFunc() {
     ...
     for(var y = 0; y < 5; y++) {
         ...
@@ -36,8 +38,6 @@ onTryLetVar() {
     console.log('y = '+y+', z = '+z);   //Ｘ: y = 5, z = 找不到變數
 }
 ```
-
-ref.: [ES6 的 var 和 let](http://www.jstips.co/zh_tw/javascript/keyword-var-vs-let/)
 
 ## Global variable
 
