@@ -6,7 +6,7 @@
 
 #### const
 
-命名變數為常數，類似Ｃ語言的`#define`用法，較多會被放在`class`外面做定義。
+命名變數為不可變的常數。
 
 ```
 import React, { Component } from 'react';
